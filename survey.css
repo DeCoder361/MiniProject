@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    background-image: url("/img/pexels-andrea-piacquadio-3760067.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 10px powderblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+#title {
+    color: rgb(62, 62, 85);
+    text-align: center;
+    font-size: 30px;
+}
+
+#description {
+    text-align: center;
+    color: rgb(62, 62, 85);
+    font-size: 14px;
+    font-style: italic;
+}
+
+#survey-form {
+    border: 20px powderblue;
+    padding: 0px;
+    margin: opx;
+    background-color: rgb(62, 62, 85);
+    box-sizing: border-box;
+    width: 500px
+}
+
+#name-label,
+#name {
+    margin: 7px;
+    padding: 1px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 400px;
+}
+
+#email-label,
+#email {
+    margin: 7px;
+    padding: 1px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 400px;
+}
+
+#number-label,
+#number {
+    margin: 7px;
+    padding: 1px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 400px;
+}
+
+p {
+    font-size: 20px;
+    margin: 7px;
+    padding: 1px;
+}
+
+#dropdown {
+    margin: 7px;
+    padding: 1px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 400px;
+}
+
+#q1 {
+    margin: 7px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#check {
+    margin: 7px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.name {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+textarea {
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 500px
+}
+
+button {
+    padding: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: green;
+}
+
+.survey {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
